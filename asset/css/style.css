@@ -1,0 +1,300 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.btn a{
+    color: #FFFFFF;
+    background-color: #FFA41F;
+    border: 1px solid #FFA41F;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px 18px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn a:hover{
+    border:1px solid black;
+    color: black;
+    background-color: white;
+}
+
+/* Contact section */
+.contact-section{
+    padding: 6px;
+    background-color:#FFA41F ;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    
+}
+
+.contact-conteinar{
+    display: flex;
+}
+
+.contact-conteinar .contain-info{
+    display: flex; 
+    width: 50%;
+    align-items: center;
+}
+.contain-info i{
+    font-size: 15px;
+    padding-right: 5px;
+}
+.contact-conteinar .contain-icon{
+    align-items: center;
+    width: 50%;
+}
+.contain-icon a i{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* NALPURE section */
+.nalpure-conteinar{
+    padding: 50px 150px;
+    display: flex;
+}
+.contain-phone{
+    display: flex;
+    align-items: center;
+    color: #7A7A7A;
+    width: 33.33%;
+}
+.contain-phone i{
+    padding: 8px;
+    font-size: 12px;
+}
+.contain-name{
+    text-align: center;
+    color: #7A7A7A;
+    width: 33.33%;
+    font-size: 18px;
+}
+
+.contain-Search{
+    text-align: right;
+    display: flex;
+    align-items: right;
+    color: #7A7A7A;
+    width: 33.33%;
+}
+
+.contain-Search input{
+    font-size: 15px;
+    width: 50%;
+    border-width: 1px;
+    border-color: #F2F2F2;
+    padding: 5px 40px 5px 10px;
+    float: right;
+}
+.contain-Search i{
+    background-color:#FFA41F ;
+    color: white;
+    padding: 6px 7px;
+}
+
+.conteinar-nav{
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: #7A7A7A;
+    border-width: thin;
+    margin: auto;
+    padding: 20px 100px;
+    text-align: center;
+}
+.conteinar-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+  }
+
+  .conteinar-nav ul li{
+      display: inline;
+      padding: 10px;
+      text-transform: uppercase;
+  }
+
+  .conteinar-nav ul li a{
+    text-decoration: none;
+    color: #7A7A7A;
+  }
+
+  .conteinar-nav ul li a:hover {
+    color: #FFA41F;
+  }
+
+
+
+
+.img-section{
+    margin-top: 50px;
+    background-image: url(../images/01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.bg-img-conteinar{
+
+    padding: 180px 0px;
+}
+.bg-img-conteinar .card-contain{
+    background-color: white;
+    opacity: 0.7;
+    max-width: 50%;
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+}
+
+.card-contain h1{
+    font-size: 40px;
+    color: black;
+}
+
+.card-contain p{
+    font-size: 19px;
+    color: black;
+    padding:40px 0;
+}
+
+
+
+/* Donec Tortor Eget Mauris Sagittis section */
+.donec-section{
+    max-width: 93%;
+    margin: auto;
+    padding: 100px;
+    
+}
+.donec-contain{
+    text-align: center;
+}
+.donec-contain p{
+    font-size: 18px;
+    padding-top: 7px;
+    color: #7A7A7A;
+    
+}
+
+.donec-img{
+    padding-top: 50px ;
+    max-width: 46.5%;
+    margin: 20px;
+}
+.donec-img img{
+   padding: 15px;
+  align-items: center;
+  border: 1px solid #D7D7D7;
+}
+
+.donec-img-con{
+    display: flex;
+    align-items: center;
+}
+
+.donec-img-contain ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.donec-img-contain ul li{
+    height: 216px;
+    width: 200px;
+    display: inline-block;
+    text-align: left;
+    padding: 0 15px;
+}
+.donec-img-contain ul li a{
+    color:#FFA41F;
+    text-decoration: none;
+    font-size: 21px;
+    
+}
+
+.donec-img-contain ul li p{
+    font-size: 15px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #7A7A7A;
+}
+
+/* Laoreet Vitae Faucibus Section */
+
+.vitae-section{
+    margin: auto;
+    padding: 100px 50px;
+    background-color: #f7f7f7;
+}
+
+.vitae-contain{
+    text-align: center;
+    max-width: 93%;
+}
+
+.vitae-contain p{
+    font-size: 18px;
+    padding-top: 7px;
+    color: #7A7A7A;
+    
+}
+
+.vitae-icon ul{
+    margin: auto;
+    padding: 40px;
+}
+
+.vitae-icon ul li{
+    height: 250px;
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.vitae-icon ul li a{
+    text-decoration: none;
+    color: #7A7A7A;
+}
+
+.vitae-icon ul li a:hover{
+    color: #FFA41F;
+    transition-duration: .3s
+}
+
+.vitae-icon ul li a i{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.vitae-icon ul li a h2{
+    color: black ;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 20px;
+}
+.vitae-icon ul li a h2:hover{
+    color: #FFA41F;
+    transition-duration: .3s
+}
+
+.vitae-icon ul li p{
+    font-size: 18px;
+    color: #7A7A7A;
+    padding-bottom: 20px;
+}
