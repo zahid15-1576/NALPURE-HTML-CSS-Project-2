@@ -343,3 +343,16 @@
     font-size: 15px;
     color: #7A7A7A;
 }
+
+/* Morbi Vitae Vestibulum section */
+
+.img-card-contain{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.img-card{
+    width: 474px;
+    padding: 30px;
+    margin: 30px;
+}
