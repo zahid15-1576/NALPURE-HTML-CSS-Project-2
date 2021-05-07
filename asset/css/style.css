@@ -350,9 +350,60 @@
     display: flex;
     align-items: center;
     text-align: center;
+    padding: 50px;
+    margin: 0 80px;
+   
 }
 .img-card{
     width: 474px;
-    padding: 30px;
-    margin: 30px;
+    margin: 15px;
+    text-align: center;
+    
+}
+
+.img-card-contain .card-contain{
+    border: 1px solid #7A7A7A;
+    width: 474px;
+    margin-top: -5px;
+    padding: 20px 0;
+}
+.card-contain h3{
+    font-size: 22px;
+    text-align: left;
+    padding-left: 20px;
+}
+.card-contain p{
+    color: #7A7A7A;
+    text-align: left;
+    padding: 20px;
+}
+
+.admin-tag{
+    display: flex;
+    padding:0 20px;
+}
+.admin-tag ul li i{
+    color: #7A7A7A;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.admin-tag ul li a{
+    text-decoration: none;
+    color: #FFA41F;
+    font-size: 12px;
+}
+.admin-tag ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.admin-tag .read-more a{
+    text-decoration: none;
+    color: #FFA41F;
+}
+.read-more{
+    text-align: right !important;
 }
