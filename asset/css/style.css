@@ -407,3 +407,37 @@
 .read-more{
     text-align: right !important;
 }
+
+/* Nec Eros  section */
+.nec-section{
+    background-color: #FFA41F;
+    padding: 50px 200px;
+}
+.nec-contain h3{
+    color: white;
+    font-size: 20px;
+}
+
+
+.btn1 a{
+    color: #FFFFFF;
+    background-color: black;
+    border: 1px solid black;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn1 a:hover{
+    border:1px solid white;
+    color: white;
+    background-color: #FFA41F;
+}
+.btn1{
+    float: right;
+    margin-left: 200px;
+}
+.nec-conteinar{
+    display: flex;
+}
