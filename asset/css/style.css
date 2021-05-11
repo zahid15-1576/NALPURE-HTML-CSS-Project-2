@@ -441,3 +441,35 @@
 .nec-conteinar{
     display: flex;
 }
+
+
+/* footer-section */
+.footer-section{
+    background-color: black;
+}
+.footer-conteinar{
+    max-width: 93%;
+    margin: auto;
+    padding: 100px;
+}
+.fotter-add1 p{
+    font-size: 20px;
+}
+.fotter-add1{
+    color: white;
+    width: 25%;
+}
+.contact-icon a i{
+    color: #474747;
+    background-color: #F7F7F7;
+    margin: 20px 5px 10px 2px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.contact-icon a i:hover{
+    background-color: rgb(4, 4, 160);
+    transition-duration: .3s;
+    transition-delay: .3s;
+    color: white;
+}
