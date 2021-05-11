@@ -462,9 +462,9 @@
 .contact-icon a i{
     color: #474747;
     background-color: #F7F7F7;
-    margin: 20px 5px 10px 2px;
-    font-size: 18px;
-    padding: 10px;
+    margin: 40px 5px 10px 2px;
+    font-size: 16px;
+    padding: 9px 11px;
 }
 
 .contact-icon a i:hover{
@@ -472,4 +472,11 @@
     transition-duration: .3s;
     transition-delay: .3s;
     color: white;
+}
+.fotter-add1 p i{
+    padding-right: 15px;
+    font-size: 13px;
+}
+.fotter-add1 p{
+    padding-top: 20px;
 }
