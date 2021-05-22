@@ -24,12 +24,11 @@
 
 /* Contact section */
 .contact-section{
-    padding: 6px;
+    padding: 6px 100px;
     background-color:#FFA41F ;
     color: white;
     font-size: 10px;
     text-transform: uppercase;
-    
 }
 
 .contact-conteinar{
@@ -39,6 +38,9 @@
     display: flex; 
     width: 50%;
     align-items: center;
+    text-align: right;
+    padding-right: 10px;
+    justify-content: flex-end;
 }
 .contain-info i{
     font-size: 15px;
@@ -79,6 +81,7 @@
 .contain-Search{
     text-align: right;
     display: flex;
+    justify-content: flex-end;
     align-items: right;
     color: #7A7A7A;
     width: 33.33%;
@@ -99,11 +102,9 @@
 }
 
 .conteinar-nav{
-    border-style: solid;
-    border-width: 1px 0px 1px 0px;
-    border-color: #7A7A7A;
-    border-width: thin;
-    margin: auto;
+    border: solid rgb(214, 209, 209);
+    border-width: 1px 0;
+    margin: 20px 200px;
     padding: 20px 100px;
     text-align: center;
 }
@@ -128,6 +129,7 @@
 
   .conteinar-nav ul li a:hover {
     color: #FFA41F;
+    transition-duration: 0.3s;
   }
 
 
@@ -381,6 +383,8 @@
 .admin-tag{
     display: flex;
     padding:0 20px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 .admin-tag ul li i{
     color: #7A7A7A;
@@ -391,13 +395,14 @@
 .admin-tag ul li a{
     text-decoration: none;
     color: #FFA41F;
-    font-size: 12px;
+    font-size: 14px;
 }
 .admin-tag ul li{
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: left;
+    display: inline-block;
 }
 
 .admin-tag .read-more a{
@@ -555,6 +560,7 @@
 }
 .copyright-conteinar{
     display: flex;
+    justify-content: space-between;
 }
 .p2{
     text-align: right;
