@@ -545,3 +545,40 @@
     font-family: 'Kanit', sans-serif;
     margin-top: 7px;
 }
+
+/* Copyright Section */
+.copyright-section{
+    max-width: 93%;
+    margin: auto;
+    padding: 30px 0px 20px 120px; 
+    background-color: #FFFFFF;
+}
+.copyright-conteinar{
+    display: flex;
+}
+.p2{
+    text-align: right;
+    width: 50%;
+    color: #7A7A7A;
+    font-size: 17px;
+}
+.p1{
+    color: #7A7A7A;
+    font-size: 17px;
+}
+
+.pop-up{
+    width: 10%;
+    text-align: right;
+}
+.pop-up i{
+    font-size: 20px;
+    color: white;
+    background-color: #FFA41F;
+    opacity: 0.4;
+    padding: 7px 12px ;  
+}
+.pop-up i:hover{
+    opacity: 0.9;
+    transition-duration: 0.3s; ;
+}
